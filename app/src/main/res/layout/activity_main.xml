@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A0A0F"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ViciousLayer"
+        android:textColor="#E03060"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM OVERLAY UTILITY"
+        android:textColor="#666680"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp" />
+
+    <EditText
+        android:id="@+id/overlay_label_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#1A1A2A"
+        android:hint="Overlay Display Text"
+        android:textColor="#E8E8F0"
+        android:textColorHint="#666680"
+        android:padding="12dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#E03060"
+        android:text="▶ Start Overlay"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#1A1A2A"
+        android:text="■ Stop"
+        android:textColor="#E8E8F0" />
+
+    <Button
+        android:id="@+id/btn_send_push"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#30E088"
+        android:text="🔔 Push Live Notification"
+        android:textColor="#0A0A0F" />
+</LinearLayout>
